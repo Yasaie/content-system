@@ -1,0 +1,3 @@
+# Remove both lines below if you want to render HTML files from the upload folder
+AddType text/plain .html
+AddType text/plain .htm

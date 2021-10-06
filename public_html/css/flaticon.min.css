@@ -1,0 +1,139 @@
+/*==Flaticon icon font: Flaticon==*/
+
+@font-face {
+	font-family: Flaticon;
+	src: url(../fonts/Flaticon.eot);
+	src: url(../fonts/Flaticond41d.eot?#iefix) format("embedded-opentype"),
+	url(../fonts/Flaticon.woff) format("woff"), 
+	url(../fonts/Flaticon.ttf) format("truetype"), 
+	url(../fonts/Flaticon.svg#Flaticon) format("svg");
+	font-weight: 400;
+	font-style: normal
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+@font-face {
+	font-family: Flaticon;
+	src: url(../fonts/Flaticon.svg#Flaticon) format("svg")
+}
+}
+[class*=" flaticon-"]:after, [class*=" flaticon-"]:before, [class^=flaticon-]:after, [class^=flaticon-]:before {
+	font-family: Flaticon;
+	font-size: 38px;
+	font-style: normal
+}
+.flaticon-businessman:before { content: "\f100"; }
+.flaticon-idea:before { content: "\f101"; }
+.flaticon-network:before { content: "\f102"; }
+.flaticon-consulting:before { content: "\f103"; }
+.flaticon-bar-chart:before { content: "\f104"; }
+.flaticon-analytics:before { content: "\f105"; }
+.flaticon-building:before { content: "\f106"; }
+.flaticon-sketch:before { content: "\f107"; }
+
+/*=================================
+			ICONMOON CSS
+==================================*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon071e.eot?rrsgby');
+  src:  url('../fonts/icomoon071e.eot?rrsgby#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon071e.ttf?rrsgby') format('truetype'),
+    url('../fonts/icomoon071e.woff?rrsgby') format('woff'),
+    url('../fonts/icomoon071e.svg?rrsgby#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="iconmoon-"], [class*=" iconmoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconmoon-hours:before {
+  content: "\e900";
+}
+.iconmoon-hours-1:before {
+  content: "\e901";
+}
+.iconmoon-buildings:before {
+  content: "\e902";
+}
+.iconmoon-clock:before {
+  content: "\e903";
+}
+.iconmoon-clock-1:before {
+  content: "\e904";
+}
+.iconmoon-email:before {
+  content: "\e905";
+}
+.iconmoon-envelope:before {
+  content: "\e906";
+}
+.iconmoon-envelope-1:before {
+  content: "\e907";
+}
+.iconmoon-fax:before {
+  content: "\e908";
+}
+.iconmoon-house:before {
+  content: "\e909";
+}
+.iconmoon-placeholder:before {
+  content: "\e90a";
+}
+.iconmoon-smartphone:before {
+  content: "\e90b";
+}
+.iconmoon-smartphone-1:before {
+  content: "\e90c";
+}
+.iconmoon-time:before {
+  content: "\e90d";
+}
+.iconmoon-time-1:before {
+  content: "\e90e";
+}
+.iconmoon-time-2:before {
+  content: "\e90f";
+}
+.iconmoon-travel:before {
+  content: "\e910";
+}
+
+
+
+.icon-xld i,
+.icon-xld [class*="iconmoon-"]::before{
+ font-size:100px;
+}
+.icon-xl i,
+.icon-xl [class*="iconmoon-"]::before{
+ font-size:80px;
+}
+.icon-lg i,
+.icon-lg [class*="iconmoon-"]::before{
+ font-size:60px;
+}
+.icon-md i,
+.icon-md [class*="iconmoon-"]::before{
+ font-size:45px;
+}
+.icon-sm i,
+.icon-sm [class*="iconmoon-"]::before{
+ font-size:30px;
+}
+.icon-xs i,
+.icon-xs [class*="iconmoon-"]::before{
+ font-size:20px;
+}
